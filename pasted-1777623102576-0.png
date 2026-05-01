@@ -1,0 +1,38 @@
+# eClerx × Talkpush hero — static image prompt
+
+Single static image for the hero of the eClerx deal room. Sits to the right of the headline "From weeks to a 24-hour hire — built for Manila, India and Cairo." on a near-black surface.
+
+---
+
+## Prompt
+
+A wide, dark editorial hero illustration on a near-black background, split into two states side by side, connected by a single horizontal motion line.
+
+Left state — labelled "TODAY · WEEKS" in small uppercase sans. A scattered, tangled web of small geometric line-icon nodes connected by thin crossing lines in muted cool grey. Each node is a labelled piece of a recruitment process: a cluster of social-platform marks (Jobstreet, LinkedIn, Facebook, Instagram, TikTok, referrals, internal ERP, website leads), a recruiter glyph with a CV stack, a proctored-test desk labelled "VERSANT," a calendar with overlapping events labelled "SCHEDULING," an email-thread glyph labelled "DOCUMENT CHASING," and a form-into-database glyph labelled "MANUAL ORACLE ENTRY." Lines cross. Nodes do not sit on a grid. Slightly desaturated, low contrast. A small caption underneath: "weeks · 6+ tools · manual handoffs."
+
+Centre — a single thin horizontal arrow in pink/lilac, pointing left to right, with a soft glow.
+
+Right state — labelled "24 HOURS · AUTOMATED" in small uppercase sans. A clean horizontal pipeline of five connected steps in a single straight line, lit with a pink-lilac accent and soft pink-lilac glow underneath. Each step is a minimal geometric line icon with a one-word label beneath it: "INBOX," "AI SCREEN," "SCHEDULE," "DOCUMENT AI," "ORACLE." The pipeline terminates in a small Oracle handoff endpoint with a subtle pulse-ring. A small caption underneath: "24 hours · one platform · AI-driven."
+
+Style: clean editorial vector look, geometric line icons only, no stock illustration, no human faces, no photography. Subtle dot-grid texture on the background. Crisp 1px line weights. Modern sans labels. Restrained, premium B2B SaaS feel. Reads at a glance from three seconds away.
+
+Palette: near-black background (#0A0A0B), muted cool greys for the left state, white for primary type, pink-lilac (#E9B8E0 / #D9A6E8 range) reserved exclusively for the right pipeline, the centre arrow, and the AFTER caption.
+
+Aspect ratio: 16:10, suitable for placement at roughly 960×600 pixels in a hero alongside a serif headline on the left.
+
+## Negative prompt
+
+no humans, no faces, no photography, no stock illustration, no 3D render, no isometric perspective, no clipart, no rainbow gradients, no green or blue accent colors, no recruiter dashboards, no software UI screenshots, no logos other than the social-channel marks named above, no busy backgrounds, no drop shadows on icons, no skeuomorphism.
+
+## Constraints baked into the prompt
+
+- Versant and Oracle are named because they are load-bearing in the deal room copy.
+- Pink/lilac is reserved for the AFTER state so the visual carries the value contrast without copy doing it.
+- No human imagery — keeps the candidate-experience-first rule intact and avoids generic stock.
+- 16:10 fits the existing hero layout.
+
+## What this image is not
+
+- Not animated. One static frame.
+- Not a Figma file, Lottie, SVG component, or React block.
+- Not a redesign of the headline, eyebrow, subhead, or logo lockup. Visual only.

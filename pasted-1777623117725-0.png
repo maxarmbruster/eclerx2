@@ -1,0 +1,96 @@
+# eClerx × Talkpush hero visual — claude design prompt
+
+Paste into claude design. Produces the right-side hero visual that replaces the current BEFORE/AFTER cards.
+
+---
+
+## Context
+
+This is the hero of an account-specific deal room for eClerx, a BPO with 150–300 hires/month in Manila, large India operations, and a planned Cairo hub. Talkpush is pitching to consolidate eClerx's recruitment stack into one AI-driven flow.
+
+The headline is already locked: "From weeks to a 24-hour hire — built for Manila, India and Cairo." The hero surface is dark. eClerx and Talkpush logos sit at equal prominence above the headline. Pink/lilac is the accent color. Don't redesign any of that.
+
+The job is the visual on the right side of the hero. It needs to make the headline literal.
+
+## Goal
+
+One visual that shows, in three seconds and without body copy, how eClerx's current multi-week, multi-tool, multi-channel hiring process collapses into a 24-hour AI-automated flow on Talkpush.
+
+## Concept: tangle to pipeline
+
+A two-state diagram. Left side is the eClerx today: a tangled, scattered web of disconnected processes. Right side is Talkpush: a single clean horizontal pipeline. A motion or arrow connects the two.
+
+### Left state — "Today · weeks"
+
+Scattered nodes, lines crossing, muted neutrals. Each node is a piece of the current process:
+
+- 8+ sourcing channels — Jobstreet, LinkedIn, Facebook, Instagram, TikTok, referrals, internal ERP, website leads. Use small platform marks or labelled dots.
+- Manual screening — recruiter glyph with a CV stack
+- Versant assessment — proctored test desk glyph
+- Manual scheduling — calendar with overlapping events
+- Document chasing — email thread glyph
+- Manual data entry — keyboard or form into Oracle
+
+The tangle is the message. Lines should cross. Nodes shouldn't align to a grid. Slightly desaturated. A small caption under the cluster: "weeks · 6+ tools · manual handoffs."
+
+### Right state — "24 hours · automated"
+
+A single flowing pipeline, lit with the pink/lilac accent. Five clean steps in a horizontal line:
+
+1. One inbox (all channels collapsed)
+2. AI screening + TalkScore voice agent (replaces manual screening + Versant)
+3. Auto-scheduling
+4. Document AI (collect, OCR, validate)
+5. Oracle sync
+
+Each step is a small geometric icon with a one-word label below. The pipeline ends in a clear Oracle handoff. Caption under: "24 hours · one platform · AI-driven."
+
+### Transition
+
+Between the two states, an arrow or animated migration conveying collapse. If animated, the left nodes reorganize into the right pipeline. If static, a directional pink/lilac sweep with an arrow.
+
+## Style
+
+- Dark hero surface, near-black, matches the existing page
+- Talkpush palette only. Pink/lilac accent reserved for the AFTER state, the 24-hour mark, and the active pipeline. Left state in muted neutrals.
+- Type: small sans labels, all-caps state markers ("TODAY · WEEKS", "24 HOURS · AUTOMATED")
+- Iconography: clean geometric line icons. No stock illustration. No human faces. No photography.
+- Background can carry a subtle dot grid or radial glow under the AFTER pipeline. Nothing busy.
+
+## Animation
+
+This is the page's signature animation. One play on load, replayable on click.
+
+- Duration: 3–5 seconds
+- Sequence: left tangle visible → lines pulse → tangle reorganizes into the right pipeline → final state holds with a subtle pulse on the Oracle endpoint
+- Reduced-motion fallback: static side-by-side composition with the arrow
+
+## Aspect and placement
+
+- Desktop: ~720–960px wide × ~480–560px tall, sitting to the right of the headline at hero widths up to 1440–1920px
+- Mobile: stacks below the headline, full width, ~16:10 crop
+- Bleeds against the dark hero surface; no card frame around the whole visual
+
+## Constraints
+
+- Do not change the headline, eyebrow, subhead, or logo lockup
+- Stay inside Talkpush's palette
+- If any product UI shows up inside the AFTER pipeline, it is candidate-side only (WhatsApp interview, voice TalkScore screen). No recruiter dashboards.
+- The "8+ channels" framing and the Versant and Oracle names are load-bearing. Keep them visible.
+- No competitor names other than Versant.
+
+## Deliverables
+
+1. Static hero composition — SVG and PNG, dark background
+2. Animated version — Lottie or animated SVG, drops into the existing Vercel/Next.js template
+3. Reduced-motion fallback — static PNG
+4. Mobile crop — vertical stack version
+5. Source file (Figma or equivalent) so labels and channel set can be edited later
+
+## Success check
+
+A reader who looks at the hero for three seconds, ignores the body copy, and never scrolls should walk away knowing:
+
+- Today's process is many tools, scattered, slow
+- Talkpush is one AI flow, fast, ending in Oracle
+- It applies to Manila, India, and Cairo
